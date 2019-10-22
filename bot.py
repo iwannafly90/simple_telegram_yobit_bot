@@ -12,7 +12,7 @@ try:
     import settings
 except ImportError:
     print("File settings.py not found. Copy file settings.py.default and rename in to the settings.py. "
-          "Don't forget to fill token")
+          "Don't forget to set token variable")
 
 MAIN_URL = settings.MAIN_URL
 
